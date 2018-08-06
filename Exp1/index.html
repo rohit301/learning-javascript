@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="index.js"></script>
+    <script>
+    function validate()
+    {
+            
+        //          var x=document.forms["myform"]["username"].value;
+        // var atpos=x.indexOf("@");
+        // var dotpos=x.lastIndexOf(".");
+        // if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+        //     {
+        //         alert("Not a valid e-mail address");
+        //         return false;
+        //         }
+               
+       if(document.myform.password.value=="")
+           {
+               alert("empty password feild")
+               return false;
+           }
+          
+           if(document.myform.firstname.value=="")
+           {
+               alert("empty text feild")
+               return false;
+           }
+    }</script>
+</head>
+<body>
+    <form name="myform" onsubmit="return validate()"> 
+        <div>
+       
+   <br> Test:<input type="text" name="firstname"></br>
+   <br> Option C<input type="radio" name="check2"></br>
+  <br>  Option A <input type="file" name="file"></br>
+   <br> Option D<input type="checkbox" name="check3"> </br>
+    <br>option e<input type="date" name="date"></br>
+    <br>
+    <input type="submit" name="submit"> 
+ 
+    </br>
+</div>
+</form>
+   
+</body>
+</html>
