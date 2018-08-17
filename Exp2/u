@@ -1,0 +1,87 @@
+<table align= 'center' border='1' width='360' cellspacing='0' cellpadding='3>
+     
+ html+=" "+" <ul>"+" <div align='center'>"+" "+" Firstname: "+" "+a[i].firstname
+  +" "+"City: " +a[i].city+" "+"</div> "+" </ul>";
+
+//  for (i=0;i<a.length;i++){
+
+//    console.log(a.firstname='Rohit');
+//  }
+// function array(){
+ .divTable
+    {
+        display:  table;
+        width:auto;
+        background-color:#eee;
+        border:1px solid  #666666;
+        border-spacing:5px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
+
+    .divRow
+    {
+       display:table-row;
+       width:auto;
+    }
+
+    .divCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:200px;
+        background-color:#ccc;
+    }
+
+<!-- <form id="form1">
+        <div class="div-table">
+               <div class="div-table-row">
+                  <div class="div-table-col">City</div>
+                  <div  class="div-table-col" onclick="return array()">Firstname</div>
+                   <div  class="div-table-col" align="left">Customer Address</div> 
+               </div>
+              <div class="div-table-row">
+                    <div class="div-table-col">001</div>
+                  <div class="div-table-col">002</div>
+                  <div class="div-table-col">003</div> 
+              </div>
+              <div class="div-table-row">
+                  <div class="div-table-col">xxx</div>
+                  <div class="div-table-col">yyy</div>
+                   <div class="div-table-col">www</div> 
+             </div>
+              <div class="div-table-row">
+                  <div class="div-table-col">ttt</div>
+                  <div class="div-table-col">uuu</div>
+                  <div class="div-table-col">Mkkk</div> 
+             </div>
+  
+        </div>
+    </form> -->
+
+    <!-- // console.log(a.firstname = 'Rohit');
+// console.log(a.lastname = 'Singh');
+// console.log(a.city = 'Ghy');
+// console.log(a.state = 'Assam');
+// // console.log(a.firstname = 'Rahul');
+// // console.log(a.lastname = 'Singh');
+// // console.log(a.city = 'Munnar');
+// // console.log(a.state = 'Kerala');
+// // console.log(a.firstname = 'Viyaan');
+// // console.log(a.lastname = 'Das');
+// // console.log(a.city = 'Kol');
+// // console.log(a.state = 'WB');
+// // console.log(a.firstname = 'Rahul');
+// // console.log(a.lastname = 'Yadav');
+// // console.log(a.city = 'Lucknow');
+// // console.log(a.state = 'UP'); 
+
+// } -->
+ // html+=" "+ a[i].firstname;
+ // html="</div>";
+ var masterObj = {
+  firstname: '',
+  lastname: '',
+  city: '',
+  state: ''
+}
+// var html = "";
